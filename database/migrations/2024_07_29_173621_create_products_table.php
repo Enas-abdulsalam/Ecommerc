@@ -14,10 +14,10 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('description');
-            $table->text('img');
-            $table->integer('price');
-            $table->integer('quantity');
+            // $table->string('description');
+            $table->string('image');
+            $table->string('price');
+            // $table->integer('quantity');
             $table->foreignId('category_id')->constrained();
             $table->timestamps();
         });

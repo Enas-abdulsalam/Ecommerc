@@ -7,7 +7,7 @@
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Fruitkha - Slider Version</title>
+	<title>Enas_Shop</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="{{asset('assets/img/favicon.png')}}">
@@ -33,7 +33,6 @@
 
 </head>
 <body>
-	@yield('xyz')
 
 
     <!--PreLoader-->
@@ -62,33 +61,40 @@
 						<nav class="main-menu">
 							<ul>
 								<li class="current-list-item"><a href="/">Home</a>
-									<ul class="sub-menu">
+									{{-- <ul class="sub-menu">
 										<li><a href="index.html">Static Home</a></li>
 										<li><a href="index_2.html">Slider Home</a></li>
+									</ul> --}}
+								</li>
+                                <li ><a href="/product">product</a>
+									<ul class="sub-menu">
+										<li><a href="/clothes">clothes</a></li>
+										<li><a href="/glasses">glasses</a></li>
 									</ul>
 								</li>
-								<li><a href="/product">product</a></li>
-                                <li><a href="/category">category</a></li>
+								{{-- <li><a href="/product">product</a></li> --}}
+                                {{-- <li><a href="/category">category</a></li> --}}
+                                <li><a href="/about">About</a></li>
 
-								<li><a href="#">Pages</a>
+								{{-- <li><a href="#">Pages</a>
 									<ul class="sub-menu">
 										<li><a href="404.html">404 page</a></li>
-										<li><a href="about.html">About</a></li>
+										<li><a href="/about">About</a></li>
 										<li><a href="cart.html">Cart</a></li>
 										<li><a href="checkout.html">Check Out</a></li>
 										<li><a href="contact.html">Contact</a></li>
 										<li><a href="news.html">News</a></li>
 										<li><a href="shop.html">Shop</a></li>
 									</ul>
-								</li>
-								<li><a href="news.html">News</a>
+								</li> --}}
+								{{-- <li><a href="news.html">News</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
 										<li><a href="single-news.html">Single News</a></li>
 									</ul>
-								</li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
+								</li> --}}
+								<li><a href="/login">Login</a></li>
+								{{-- <li><a href="shop.html">Shop</a> --}}
 									<ul class="sub-menu">
 										<li><a href="shop.html">Shop</a></li>
 										<li><a href="checkout.html">Check Out</a></li>
@@ -142,11 +148,11 @@
 					<div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh & Organic</p>
-								<h1>Delicious Seasonal Fruits</h1>
+								{{-- <p class="subtitle">Fresh & Organic</p> --}}
+								<h1> تفضلوا بزيارة موقعنا لتجربة تسوق سهلة ومميزة </h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Fruit Collection</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
+									<a href="shop.html" class="boxed-btn">زوروا موقعنا</a>
+									<a href="contact.html" class="bordered-btn">تواصلو معنا</a>
 								</div>
 							</div>
 						</div>
@@ -161,11 +167,11 @@
 					<div class="col-lg-10 offset-lg-1 text-center">
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh Everyday</p>
-								<h1>100% Organic Collection</h1>
+								{{-- <p class="subtitle">Fresh Everyday</p> --}}
+								<h1>عروض نهاية الموسم،،تخفيضات على كافة المنتجات </h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
+									<a href="shop.html" class="boxed-btn">زوروا أقسامنا</a>
+									<a href="contact.html" class="bordered-btn">تواصلوا معنا</a>
 								</div>
 							</div>
 						</div>
@@ -180,11 +186,11 @@
 					<div class="col-lg-10 offset-lg-1 text-right">
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
-								<p class="subtitle">Mega Sale Going On!</p>
-								<h1>Get December Discount</h1>
+								{{-- <p class="subtitle">Mega Sale Going On!</p> --}}
+								<h1>    ضمان جودة المنتجات مع سياسة إرجاع مرنة</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
+									<a href="shop.html" class="boxed-btn">زوروا موقعنا</a>
+									<a href="contact.html" class="bordered-btn">تواصلو معنا</a>
 								</div>
 							</div>
 						</div>
@@ -223,7 +229,7 @@
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
 							<li>34/8, East Hukupara, Gifirtok, Sadan.</li>
-							<li>support@fruitkha.com</li>
+							<li>support@Enasshop.com</li>
 							<li>+00 111 222 3333</li>
 						</ul>
 					</div>
